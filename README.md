@@ -1,5 +1,3 @@
-Here is the README.md content for your project, formatted in the style you provided.
-
 Retail Sales Forecasting Dashboard
 An interactive dashboard for forecasting future weekly sales using a machine learning model built with Python, Scikit-learn, and Streamlit.
 
@@ -51,3 +49,4 @@ Bash
 
 git clone https://github.com/SaleemtheGreat/Retail-Sales-Forecasting-Dashboard.git
 cd Retail-Sales-Forecasting-Dashboard
+
