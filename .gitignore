@@ -1,0 +1,55 @@
+# This is a standard .gitignore for a Python project.
+
+# ====================
+# Virtual Environment
+# ====================
+# The virtual environment folder created by venv or conda
+# This should never be committed as it can be large and system-specific.
+venv/
+.venv/
+.conda/
+env/
+.env
+
+# ====================
+# IDE and OS Files
+# ====================
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+Desktop.ini
+
+# VS Code files
+.vscode/
+
+# PyCharm files
+.idea/
+
+# ====================
+# Data and Models
+# ====================
+# It's best practice not to commit large data files or trained models.
+# The `app.py` script and notebooks are enough.
+
+# Processed data
+data/processed/
+data/raw/Walmart.csv
+
+# Trained models (these can be large binary files)
+models/rf_sales_pipeline.pkl
+models/sarima_model.pkl
+
+# ====================
+# Notebook and Python Files
+# ====================
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Streamlit cache
+.streamlit/

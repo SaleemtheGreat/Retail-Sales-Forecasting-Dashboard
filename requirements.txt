@@ -1,0 +1,16 @@
+# Core
+numpy
+pandas
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+joblib
+
+# Deep Learning (optional, if you plan to run LSTM later)
+tensorflow
+
+# Jupyter (for notebooks)
+jupyter
+notebook
